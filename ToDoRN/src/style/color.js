@@ -1,0 +1,7 @@
+export const bgColor = "#b3b1b1"
+export const textColor = "#7e7c7c"
+export const inputColor = "#625959"
+export const borderColor = "#000000"
+export const buttonBgColor = "#0000FF"
+export const redColor = "#FF0000"
+export const whiteColor = "#FFFFFF"

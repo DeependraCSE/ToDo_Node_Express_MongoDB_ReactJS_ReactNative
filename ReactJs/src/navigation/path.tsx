@@ -1,0 +1,22 @@
+export const AuthRootPath = "/authroot"
+export const AppRootPath = "/approot"
+export const Login = "/login"
+export const Register = "/register"
+export const ForgotPassword = "/forgotpassword"
+
+export const Dashboard = "/dashboard"
+export const ChangePassword = "/changepassword"
+
+export const Marketplace = "/marketplace"
+export const Features = "/features"
+export const Contact = "/contact"
+export const Company = "/company"
+export const About = "/about"
+export const Services = "/services"
+export const Profile = "/profile"
+export const Logout = "/logout"
+
+export const TaskList = "/tasklist"
+export const Task = "/task"
+export const Setting = "/setting"
+export const DeleteProfile = "/deleteprofile"

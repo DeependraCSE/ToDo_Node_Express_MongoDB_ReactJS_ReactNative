@@ -1,0 +1,12 @@
+{
+    "message_type_success" : 1,
+    "message_type_fail" : 0,
+    "auth_token" : "auth_token",
+    "user_info" : "user_info",
+    "standerd_margin" : 5,
+    "standerd_padding" : 5,
+    "ProfileMenuOption" : 1,
+    "ChangePasswordMenuOption" : 2,
+    "SettingMenuOption" : 3,
+    "LogoutMenuOption" : 4
+}

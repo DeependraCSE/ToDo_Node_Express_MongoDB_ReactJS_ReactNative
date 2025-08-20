@@ -1,0 +1,116 @@
+# --------------------------
+# OS Specific
+# --------------------------
+.DS_Store
+Thumbs.db
+
+# --------------------------
+# Node.js (applies to all subprojects)
+# --------------------------
+**/node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# --------------------------
+# Logs
+# --------------------------
+logs
+*.log
+*.out
+*.pid
+*.seed
+*.gz
+
+# --------------------------
+# Environment Files
+# It's recomnded to ignore .env file but i don't want to ignore
+# --------------------------
+# **/.env                        
+# **/.env.*.local
+
+# --------------------------
+# Build Outputs
+# --------------------------
+# ReactJS (Vite)
+ReactJS/dist/
+ReactJS/.vite/
+
+# React Native (ToDoRN)
+ToDoRN/android/app/build/
+ToDoRN/android/.gradle/
+ToDoRN/android/.idea/
+ToDoRN/android/local.properties
+ToDoRN/ios/Pods/
+ToDoRN/ios/build/
+ToDoRN/ios/*.xcworkspace/xcuserdata/
+ToDoRN/build/
+
+# Xcode (iOS)
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Android/IntelliJ
+*.iml
+.idea/
+.gradle/
+local.properties
+.cxx/
+*.keystore
+!debug.keystore
+.kotlin/
+
+# --------------------------
+# Node backend (Node folder)
+# --------------------------
+Node/logs/
+Node/temp/
+Node/coverage/
+
+# --------------------------
+# React Native Specific
+# --------------------------
+*.jsbundle
+.metro-health-check*
+.expo/
+.expo-shared/
+
+# --------------------------
+# Testing
+# --------------------------
+coverage/
+jest-html-reporters-*.html
+
+# --------------------------
+# Fastlane
+# --------------------------
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+# --------------------------
+# Yarn Berry (if used)
+# --------------------------
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
