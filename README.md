@@ -24,8 +24,8 @@ npm i
 ## Step 2: Start Node Server (Backend)
 Go to inside Node folder and make changes as per requirment in .env file and save.
 ```sh
-PORT = 3000
-HOST = "0.0.0.0" 
+PORT = 3000         # port no                                              <-- Change this in which port number you want to run your backend
+HOST = "0.0.0.0"    # host or local host
 MONGOOSE_PATH = mongodb://127.0.0.1:27017/      # mongodb url or db path   <-- Change this with your mongoose path
 MONGOOSE_DB = tododb        # db name                                      <-- Change this with your data base name
 MONGOOSE_DB_URL = ${MONGOOSE_PATH}${MONGOOSE_DB}
@@ -46,7 +46,7 @@ start server using bellow command
 ## Step 3: Start your ReactJS app (Frontend)
 In different terminal go to inside ReactJS folder and make changes as per requirment.
 
-vite.config.js
+changes in vite.config.js file.
 ```sh
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
@@ -61,7 +61,7 @@ export default defineConfig({
 })
 ```
 
-.env
+changes in .env file.
 ```sh
 VITE_API_BASE_URL=http://localhost:3000/api/                      <-- change where your backend is running
 VITE_SECRET_KEY=hdtheyts55634227bsfftbmmeusy776354c2mckksuieu7778
@@ -98,7 +98,8 @@ Goto the command prompt and type ipconfig and copy IPv4
 
 <img width="380" height="280" alt="Screenshot 2025-08-22 165154" src="https://github.com/user-attachments/assets/47656d6f-5925-4a8f-a92a-2e0ad35b0a44" />
 
-.env
+
+changes in .env file.
 ```sh
 BASE_URL=http://192.168.10.45:3000/api/      <-- Change address by IPv4, port no by in which backend (node server) is running
 SECRET_KEY_ENV=12345678901234567890123456789012 # 32 chars = AES-256
@@ -112,7 +113,6 @@ Start mobile app by below comand
 
 ### Screenshot
 <img width="762" height="176" alt="Screenshot 2025-08-22 180141" src="https://github.com/user-attachments/assets/55abf7a0-b9c0-4cab-859e-353b5ab1743f" />
-
 
 <img width="270" height="585" alt="Screenshot 2025-08-22 180141" src="https://github.com/user-attachments/assets/b3916662-3bff-4e7f-8503-650ec1fd2ea4" />
 <img width="270" height="585" alt="Screenshot 2025-08-22 180141" src="https://github.com/user-attachments/assets/c103cd4a-fe68-4a84-8bfb-30bda56dc70c" />
@@ -129,7 +129,10 @@ Start mobile app by below comand
 <img width="270" height="585" alt="Screenshot 2025-08-22 180141" src="https://github.com/user-attachments/assets/d7b8e891-ea4f-4054-9af4-c78e983cb18a" />
 <img width="270" height="585" alt="Screenshot 2025-08-22 180141" src="https://github.com/user-attachments/assets/d5a9beb9-da9d-4393-aff3-1b7628f19aab" />
 
-
+### Sometime due to cache, changes will not reflected on app. In this case you need to clear cache and start server using below command.
+```sh
+...ToDoRN>npx react-native start --reset-cache
+```
 
 
 ## Assumptions made / Known issues
@@ -139,21 +142,36 @@ We assume that you have proper internet connetion and latest brower or android d
 
 ## Application Features
 
-> **1**: Getting news from api and display it on flat list.
+> **1** Register user after verify mobile number.
 
-> **2**: Refresh news list on swap to refresh.
+> **2** Login user using mobile number and password.
 
-> **3**: Get detaild news on news click on different page
+> **3** Reset forgot password after verify mobile number.
 
-> **4**: Add to bookmark and remove from bookmark news.
+> **4** Change language hindi or english as per your convenience.
 
-> **5**: Change language english and hindi.
+> **5** Create, edit and delete task list.
 
-> **6**: Get all bookmarked news at different screen.
+> **6** Create, edit and delete task based on task list.
 
-> **7**: Remove all bookmarked news.
+> **7** Mark task as incomplete/complete as per requirement.
 
-> **8**: Implement redux.
+> **8** Delete profile if it is not suitable for you, this will delete your entire data.
+
+> **9**: Before and after login the routes are different, means he is unauthorized to navigate any page before authentication.
+
+> **10**: We use .env file to peotect or secret.
+
+**Backend (Node)**
+> **11**: Categories API using controller and routes.
+
+> **12**: Verify token and get user information using middleware.
+
+> **13**: Collect API calling language hindi(hi) or english(en) and calling plateform web, android or ios using middleware.
+
+> **14**: All API worked based on token after login.
+
+
 
 
 
