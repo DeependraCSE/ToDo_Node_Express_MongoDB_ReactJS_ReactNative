@@ -111,8 +111,23 @@ Start mobile app by below comand
 ```
 
 ### Screenshot
-<img width="629" height="144" alt="Screenshot 2025-08-22 180141" src="https://github.com/user-attachments/assets/55abf7a0-b9c0-4cab-859e-353b5ab1743f" />
+<img width="762" height="176" alt="Screenshot 2025-08-22 180141" src="https://github.com/user-attachments/assets/55abf7a0-b9c0-4cab-859e-353b5ab1743f" />
 
+
+<img width="270" height="585" alt="Screenshot 2025-08-22 180141" src="https://github.com/user-attachments/assets/b3916662-3bff-4e7f-8503-650ec1fd2ea4" />
+<img width="270" height="585" alt="Screenshot 2025-08-22 180141" src="https://github.com/user-attachments/assets/c103cd4a-fe68-4a84-8bfb-30bda56dc70c" />
+<img width="270" height="585" alt="Screenshot 2025-08-22 180141" src="https://github.com/user-attachments/assets/44571621-3b9b-4108-b983-9d71aeca97c8" />
+<img width="270" height="585" alt="Screenshot 2025-08-22 180141" src="https://github.com/user-attachments/assets/901772dd-a1b0-4057-8031-8c4b5a3465af" />
+<img width="270" height="585" alt="Screenshot 2025-08-22 180141" src="https://github.com/user-attachments/assets/60a4f6a5-dbb8-4ea1-bc76-f79f11c77058" />
+<img width="270" height="585" alt="Screenshot 2025-08-22 180141" src="https://github.com/user-attachments/assets/3c0accd9-66bf-42ca-b811-cc61fcfebb35" />
+<img width="270" height="585" alt="Screenshot 2025-08-22 180141" src="https://github.com/user-attachments/assets/08aeae0a-1011-4673-9fa3-1c6b3e6a5bcf" />
+<img width="270" height="585" alt="Screenshot 2025-08-22 180141" src="https://github.com/user-attachments/assets/cb3e7410-9e7c-453c-8abc-52c06fbdb316" />
+<img width="270" height="585" alt="Screenshot 2025-08-22 180141" src="https://github.com/user-attachments/assets/151541bb-2ec6-46b7-80d5-b4638f1c9daf" />
+<img width="270" height="585" alt="Screenshot 2025-08-22 180141" src="https://github.com/user-attachments/assets/20be6666-ec60-4488-a3bc-05be619cef5f" />
+<img width="270" height="585" alt="Screenshot 2025-08-22 180141" src="https://github.com/user-attachments/assets/bca7640e-7b06-41ce-92d8-7639c36c4284" />
+<img width="270" height="585" alt="Screenshot 2025-08-22 180141" src="https://github.com/user-attachments/assets/5fdead69-4449-4ed4-badc-457b456594f3" />
+<img width="270" height="585" alt="Screenshot 2025-08-22 180141" src="https://github.com/user-attachments/assets/d7b8e891-ea4f-4054-9af4-c78e983cb18a" />
+<img width="270" height="585" alt="Screenshot 2025-08-22 180141" src="https://github.com/user-attachments/assets/d5a9beb9-da9d-4393-aff3-1b7628f19aab" />
 
 
 
@@ -139,6 +154,7 @@ We assume that you have proper internet connetion and latest brower or android d
 > **7**: Remove all bookmarked news.
 
 > **8**: Implement redux.
+
 
 
 
