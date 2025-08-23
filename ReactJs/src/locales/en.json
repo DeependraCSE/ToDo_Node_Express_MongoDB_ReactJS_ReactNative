@@ -66,7 +66,7 @@
     "confirm_delete" : "Confirm delete?",
     "confirm_delete_message" : "Do you really want to delete this task? This action can't be undo.",
     "delete_profile" : "Delete Profile",
-    "delete_profil_text" : "Are you sure to delete this profile? This will delete your entire profile data, tasks list and tasks. The action can't be undo.",
+    "delete_profile_text" : "Are you sure to delete this profile? This will delete your entire profile data, tasks list and tasks. The action can't be undo.",
     "cancel" : "Cancel",
     "refresh" : "Refresh"
 }

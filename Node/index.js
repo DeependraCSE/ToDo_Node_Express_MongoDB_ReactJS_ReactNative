@@ -30,7 +30,7 @@ app.use('/api/tasks/',detectLanguagePlatform, taskRoutes)
 app.get("/", (req,res)=>{
     res.status(200);
     //res.send("Welcome to our server")
-    return CommonResponse.fail(res, "Welcome to our server")
+    return CommonResponse.success(res, "Welcome to our server")
 })
 
 app.listen(port,host,(error)=>{
